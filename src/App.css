@@ -1,12 +1,12 @@
-
+/* Base layout */
 .app-container {
   display: flex;
   min-height: 100vh;
-  background: #f8fafc; 
-  color: #0f172a;      
+  background: #f8fafc; /* হালকা গ্রে ব্যাকগ্রাউন্ড */
+  color: #0f172a;      /* slate-900 */
 }
 
-
+/* Sidebar */
 .sidebar {
   position: sticky;
   top: 0;
@@ -62,19 +62,19 @@
   color: #0d6efd;
 }
 
-
+/* Main content */
 .content {
   flex: 1;
   padding: 28px;
 }
 
-
+/* Utility */
 .page-title {
   font-weight: 800;
   margin-bottom: 18px;
 }
 
-
+/* Card-like wrapper for table */
 .card-like {
   background: #fff;
   border: 1px solid #e5e7eb;
@@ -84,12 +84,12 @@
   box-shadow: 0 6px 16px rgba(2,6,23,0.04);
 }
 
-
+/* Profile */
 .profile-card {
   border-radius: 16px;
 }
 
-
+/* Responsive: small screens auto-collapse */
 @media (max-width: 992px) {
   .sidebar { position: fixed; z-index: 30; }
   .content { margin-left: 72px; }
