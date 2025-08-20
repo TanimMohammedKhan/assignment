@@ -42,7 +42,7 @@ const ArticlesPage = () => {
           <thead>
             <tr>
               <th style={{ width: "55%" }}>Journals</th>
-              <th style={{ width: "20%" }}></th>
+              <th style={{ width: "20%" }}>Phase</th>
               <th style={{ width: "25%" }}>Last Edited</th>
             </tr>
           </thead>
