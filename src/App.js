@@ -14,10 +14,10 @@ function App() {
 
       <main className="content">
         <Routes>
-          <Route path="/" element={<Navigate to="/articles" replace />} />
+          <Route path="/" element={<Navigate to="/Profile" replace />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/articles" element={<ArticlesPage />} />
-          <Route path="*" element={<Navigate to="/articles" replace />} />
+          <Route path="*" element={<Navigate to="/Profile" replace />} />
         </Routes>
       </main>
     </div>

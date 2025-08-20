@@ -6,7 +6,7 @@ const articles = [
   {id:5,title: "Point of View: Choosing the Right Narrative Voice", status: "InProgress",lastEdited: "2025-07-29" },
   {id:6,title: "Editing Like a Pro: From First Draft to Final Draft", status: "Completed", lastEdited: "2025-07-28" },
   {id:7, title: "Pacing Your Story: Keep Readers Hooked", status: "Completed", lastEdited: "2025-07-21" },
-  {id:8,title: "Theme vs. Plot: What’s the Difference?", status: "In ", lastEdited: "2025-07-18" },
+  {id:8,title: "Theme vs. Plot: What’s the Difference?", status: "InProgress ", lastEdited: "2025-07-18" },
   {id:9, title: "Hooks that Work: Opening Lines that Spark Curiosity",status: "Completed", lastEdited: "2025-07-11" },
   {id:10,title: "Scene Structure 101: Goal, Conflict, Outcome", status: "Completed", lastEdited: "2025-07-08" },
   {id:11, title: "Show, Don’t Tell: Practical Examples", status: "Completed", lastEdited: "2025-07-01" },
