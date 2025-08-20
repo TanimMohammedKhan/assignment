@@ -58,7 +58,7 @@
 }
 
 .side-item.active {
-  background: rgba(13,110,253,0.1); /* bootstrap primary 10% */
+  background: rgba(13,110,253,0.1);
   color: #0d6efd;
 }
 
